@@ -1,0 +1,72 @@
+1)
+<!DOCTYPE html>
+<html>
+<body>
+ <script>
+ alert( “I’m JavaScript!");
+ </script>
+ Whats the error in this ?
+</body>
+</html>
+2)
+<!DOCTYPE html>
+<html>
+<body>
+ <script src=”scripts.js”></script>
+</body>
+</html>
+3)
+alert("I'm JavaScript!");
+alert('Hello') 
+alert(`Wor
+ ld`)
+alert(3 +
+1
++ 2);
+explanation : there is no terminator so it is working
+4)
+let admin=9, fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+admin = fname+lname;
+alert( admin );
+5)
+let fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+name = fname+lname;
+alert( 'hello ${name}' );
+7)
+var a = 2>12;
+
+if (a) {
+  console.log("Code is Blasted")
+}
+else
+{
+  console.log("Diffused") 
+}
+explanation=it printed code is blasted because
+ when give value is in string if we change that to integer the output is Diffused 6)
+let a = prompt("First number?");
+let b = prompt("Second number?");
+alert(a + b);
+7)
+let a = ("Enter a number?");
+//Don't modify any code below this
+if (a) {
+ console.log( 'OMG it works for any number inc 0' );
+}
+else
+{
+ console.log( "Success" );
+}
+8)
+ let value=parseInt(userInput[0]);
+  if (value == 4) {
+      console.log("You hit a Four");
+} else if (value == 6) {
+      console.log("You hit a Six");
+} else {
+      console.log("I couldn't figure out");
+9)
